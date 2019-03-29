@@ -29,7 +29,7 @@ A pre-trained VGG-16 network is used. Skip layers are added by following steps,
 #### Optimizer
 Adam optimizer is used.
 
-####Training hyperparameters
+#### Training hyperparameters
  - keep_prob: 0.5
  - learning_rate: 0.00001
  - epochs: 8, 16, 32, 64, 128
