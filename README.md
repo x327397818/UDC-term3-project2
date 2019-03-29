@@ -26,7 +26,7 @@ A pre-trained VGG-16 network is used. Skip layers are added by following steps,
  - Add above with layer 4 and then do 2x unsample(with a stride 2 transposed convolution)
  - Add above with layer 3 and then do 8x unsample(with a stride 8 transposed convolution)
 
-####Optimizer
+#### Optimizer
 Adam optimizer is used.
 
 ####Training hyperparameters
@@ -35,7 +35,7 @@ Adam optimizer is used.
  - epochs: 8, 16, 32, 64, 128
  - batch_size: 5
  
-####Result
+#### Result
 Video made from test result images can be found [here](https://github.com/x327397818/UDC-term3-project2/blob/master/result/128.mp4)
 
 Here is the charts shows the relationship of loss over epochs.
@@ -44,7 +44,7 @@ Here is the charts shows the relationship of loss over epochs.
 
 From the chart above, it is easy to tell loss decrease over epochs. But after around epochs 60, the decreasing speed is very low.
 
-###Run 
+### Run 
 Run the following command to run the project:
 ```
 python main.py
